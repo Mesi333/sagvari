@@ -1,0 +1,27 @@
+  <body>
+    <div id="x">cica</div>
+  </body>
+  <style>
+      #x {
+        background-color: salmon; 
+        display: inline-block;
+        padding: 10px;
+        border-radius: 6px;
+        box-shadow: 1px 1px 3px black;
+        text-shadow: 1px 1px 4px gray;
+        position: fixed;
+        top: 30px;
+        left: 30px;
+        transition: .3s;
+    }
+</style>
+<script>
+    o = document.getElementById("x")
+    setInterval(()=>{
+        o.style.top=Math.random()*300+30
+        o.style.left=Math.random()*300+30
+    }, 500)    
+</script>
+  
+  
+  
